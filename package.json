@@ -1,0 +1,37 @@
+{
+  "name": "back-redirect-mapbox",
+  "version": "1.0.0",
+  "description": "Api para redirecionar pedidos do client para plataforma o mapbox CLS.",
+  "main": "index.js",
+  "scripts": {
+    "hml": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermedora/DesafioTech-BioPark-2023-BACK.git"
+  },
+  "keywords": [],
+  "author": "Guilherme Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermedora/DesafioTech-BioPark-2023-BACK/issues"
+  },
+  "homepage": "https://github.com/guilhermedora/DesafioTech-BioPark-2023-BACK#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.428.0",
+    "aws-sdk": "^2.1473.0",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
